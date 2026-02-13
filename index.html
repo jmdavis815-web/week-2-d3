@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <h1>Flex-Box Form</h1>
+    </header>
+    <main>
+      <form>
+        <div class="inputs">
+          <label for="name">UserName:</label>
+          <br />
+          <input id="name" name="message" placeholder="username" autofocus />
+        </div>
+        <div class="inputs email">
+          <label for="email">Email:</label>
+          <br />
+          <input
+            type="email"
+            id="email"
+            placeholder="example@email.com"
+            required
+          />
+        </div>
+        <div class="inputs password">
+          <label for="password">Password:</label>
+          <br />
+          <input
+            type="password"
+            id="password"
+            placeholder="**********"
+            required
+          />
+        </div>
+        <div class="btns">
+          <button class="primary" type="button">Login</button>
+          <button type="submit">Signup</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
