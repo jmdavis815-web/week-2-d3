@@ -74,7 +74,7 @@ label {
   text-decoration: none;
   padding: 5px;
   border-radius: 15px;
-  width: 75px;
+  width: 100px;
   color: white;
   text-shadow: 1px 1px 2px black;
   background-color: rgba(0, 0, 0, 0.281);
@@ -96,8 +96,12 @@ label {
   background-color: rgba(35, 35, 245, 0.267);
 }
 
-/*== Sm Screens ==*/
-@media (width < 576px) {
+/*=========================
+
+        --Sm Screens--
+
+==========================*/
+@media (width < 568px) {
   .inputs {
     width: 95%;
   }
