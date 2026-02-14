@@ -68,7 +68,6 @@ label {
   justify-content: space-around;
   width: 100%;
   margin-top: 35px;
-  transition: transform 0.3s ease;
 }
 
 .btns button {
@@ -80,11 +79,12 @@ label {
   text-shadow: 1px 1px 2px black;
   background-color: rgba(0, 0, 0, 0.281);
   font-size: 14px;
+  transition: transform 0.2s ease;
 }
 
 .btns button:hover {
   background-color: rgba(39, 39, 39, 0.281);
-  transform: scale(1.03);
+  transform: scale(1.02);
   box-shadow: 1px 1px 3px darkgrey;
 }
 
