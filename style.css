@@ -35,7 +35,7 @@ form {
 label {
   margin-bottom: -10px;
   color: white;
-  font-weight: 400px;
+  font-weight: 400;
   text-shadow:
     1px 1px 1px black,
     1px 1px 3px black,
@@ -98,14 +98,16 @@ label {
 
 /*=========================
 
-        --Sm Screens--
+    --Sm Screens--
 
 ==========================*/
-@media (width < 568px) {
+@media (width <=568px) {
   .inputs {
     width: 95%;
   }
+
   body {
     background-image: url(tempBg.png);
+    max-width: 100vw;
   }
 }
